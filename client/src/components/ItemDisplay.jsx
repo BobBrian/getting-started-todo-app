@@ -40,7 +40,7 @@ export function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
                         onClick={toggleCompletion}
                         aria-label={
                             item.completed
-                                ? 'Mark item as incomplete'
+                                ? 'Mark item as incompleted'
                                 : 'Mark item as complete'
                         }
                     >
